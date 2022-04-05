@@ -1,4 +1,4 @@
-# DSML_2021 Git Repo
+# DSML_2022 Git Repo
 
 Welcome to the official 2021 repository for the course **"Introduction to Data Science and Machine Learning (DSML)"**. We will use this space as the central point for sharing code, (small) datasets and instructions with you over the course of this semester.
 
