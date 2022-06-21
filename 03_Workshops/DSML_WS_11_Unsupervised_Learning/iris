@@ -1,0 +1,16 @@
+digraph Tree {
+node [shape=box] ;
+0 [label="Petal.Length <= 2.45\ngini = 0.667\nsamples = 146\nvalue = [49, 49, 48]\nclass = setosa"] ;
+1 [label="gini = 0.0\nsamples = 49\nvalue = [49, 0, 0]\nclass = setosa"] ;
+0 -> 1 [labeldistance=2.5, labelangle=45, headlabel="True"] ;
+2 [label="Petal.Area <= 7.425\ngini = 0.5\nsamples = 97\nvalue = [0, 49, 48]\nclass = versicolor"] ;
+0 -> 2 [labeldistance=2.5, labelangle=-45, headlabel="False"] ;
+3 [label="gini = 0.0\nsamples = 45\nvalue = [0, 45, 0]\nclass = versicolor"] ;
+2 -> 3 ;
+4 [label="Petal.Area <= 8.73\ngini = 0.142\nsamples = 52\nvalue = [0, 4, 48]\nclass = virginica"] ;
+2 -> 4 ;
+5 [label="gini = 0.48\nsamples = 10\nvalue = [0, 4, 6]\nclass = virginica"] ;
+4 -> 5 ;
+6 [label="gini = 0.0\nsamples = 42\nvalue = [0, 0, 42]\nclass = virginica"] ;
+4 -> 6 ;
+}
